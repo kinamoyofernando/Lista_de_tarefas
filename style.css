@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(160, 157, 157);
+}
+.content{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+}
+header{
+    margin-top: 20px;
+    text-align: center;
+
+}
+label{
+    font-weight: bolder;
+    font-size: 40px;
+}
+.input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 0px 10px 10px 0px;
+    width: 100%;
+    height: 40px;
+    background-color: aqua;
+}
+input{
+    width: 80%;
+    height: 100%;
+}
+.avansar{
+    display: flex;
+    align-items: center;
+    border: none;
+    height: 100%;
+    width: 20%;
+    cursor: pointer;
+    border-radius: 0px 10px 10px 0px;
+    background-color: rgb(31, 192, 72);
+    transition: all .5s;
+}
+.avansar:hover{
+    background-color: rgb(13, 158, 49);
+}
+.avansar p{
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+.tabela{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 0px 10px 10px 0px;
+    background: white;
+}
+
+.tabelaValido{
+    background-color: rgb(0, 255, 157);
+    color: rgba(0, 0, 0, 0.507);
+}
+.foto{
+    text-align: center;
+    width: 10%;
+}
+img{
+    width: 20px;
+    height: 20px;
+    transition: all .5s;
+}
+img:hover{
+    width: 22px;
+    height: 22px;
+}
+.textoTabela{
+    width: 80%;
+    transition: all .5s;
+}
+.textoTabela:hover{
+    font-size: 17px;
+}
+
+button.Escluir{
+    border: none;
+    width: 10%;
+    height: 100%;
+    color: white;
+    border-radius: 0px 10px 10px 0px;
+    background: red;
+    transition: all .5s;
+}
+button.Escluir:hover{
+    background-color: rgb(219, 0, 0);
+    cursor: pointer;
+}
